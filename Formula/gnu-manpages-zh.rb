@@ -68,6 +68,6 @@ class GnuManpagesZh < Formula
   test do
     ENV["PAGER"] = "cat"
     output = shell_output("man -M #{man}/zh_CN gtrue")
-    assert_match homepage, output
+    assert_match /TRUE/, output
   end
 end
