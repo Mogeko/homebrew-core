@@ -19,7 +19,7 @@ class ZshAutocomplete < Formula
         source #{HOMEBREW_PREFIX}/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
       
       If you installed other completions (like `zsh-completions` in Homebrew),
-      you need remove any calls to compinit from your `.zshrc` file.
+      you may need to remove any calls to compinit from your .zshrc file.
 
       You will also need to restart your terminal for this change to take effect.
     EOS
